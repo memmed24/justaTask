@@ -1,0 +1,116 @@
+@import "variables.scss";
+#clients{
+	height: 467px;
+	background-color: $row;
+	.clientsLeft{
+		height: 467px;
+		.clientAbout{
+			margin-top: 100px;
+			h1{
+				margin-left: -13px;
+				margin-top: -5px;
+				font-size: 28px;
+				letter-spacing: 1.4px;
+			}
+			p{
+				font-size: 17px;
+				letter-spacing: 1.3px;
+				margin-left: -13px;
+				margin-top: -8px;
+			}
+		}
+		.clientInfo{
+			padding-top: 25px;
+			.quote{
+				margin-left: -15px;
+				margin-top: 17px;
+				height: 47px;
+				width: 56px;
+			}
+			.quoteP{
+				margin-left: 82px;
+				margin-top: -47px;
+				line-height: 1.7;
+				border: 0px;
+				p{
+					color: $startUpH2;
+				}
+			}
+		}
+		.author{
+			.author1{
+				margin-left: 98px;
+				margin-top: 12px;
+				span{
+					margin-top: 60px;
+					margin-left: -15px;
+					color: $startUpP;
+				}
+				p{
+					color:$authorOrange;
+					margin-top: 8px;
+					letter-spacing: 1px;
+					margin-left: -15px;
+					font-size: 12px;
+				}
+			}
+		}
+	}
+	.line{
+		height: 207px;
+		width: 1px;
+		background-color: red;
+	}
+	.clientsRight{
+		.clientsCircles{
+			margin-top: 197px;
+			margin-left:0px;
+			height: 162px;
+			border: 0px;
+			border-left: 1px solid $topBarRight;
+
+			.bigCircles{
+				position: absolute;
+				height: 132px;
+				.Circle{
+					width: 132px;
+					height: 132px;
+					border-radius: 50%;
+					background-color: $bannerBG;
+					display: inline-block;
+					transition: 200ms linear;
+					img{
+						margin-left: calc(100%/2 - 26.5px);
+						margin-top: calc(100%/2 - 14px);
+					}
+					&:hover{
+						background-color: $rowHover;
+					}
+				}
+				.CircleAS{
+					margin-left: 15px;
+				}
+				.CircleFS{
+					margin-right: 17px;
+				}
+			}
+			.littleCircles{
+				height: 12px;
+				margin-top: 16px; 
+				text-align: center;
+				.circle{
+					margin-top: -2px;
+					height: 12px;
+					width: 12px;
+					background-color: $littleCircles;
+					border-radius: 50%;
+					display: inline-block;
+					transition: 200ms linear;
+					&:hover{
+						background-color: $hover;
+					}
+				}
+			}
+		}
+	}
+}

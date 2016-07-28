@@ -1,0 +1,166 @@
+@import "variables.scss";
+#features{
+	.topFeature{
+		height: 663px;
+		border-bottom: 1px solid $row;
+		.featureP{
+			height: 48px;
+			margin-top: 100px;
+			h1{
+				margin-top: -7px;
+				color: $startUpP;
+				font-size: 29.9px;
+			}
+			p{
+				color: $startUpP;
+				letter-spacing: 0.5px;
+				font-size: 17.1px;
+				margin-top: -7px;
+			}
+		}
+	}
+	.Allfeatures{
+		margin-top: 43px;
+		.data{
+			.dataIcon{
+				height: 68px;
+				width: 68px;
+				margin-left: -15px;
+				margin-top: 15px;
+				background-color: $row;
+				text-align: center;
+				transition: 200ms linear;
+				a{
+					text-decoration: none;
+					color: $icon;
+					font-size: 34px;
+					margin-top: calc(100%/2 - 17px);
+				}
+				&:hover{
+					background-color: $rowHover;
+					a{
+						color: white;
+					}
+				}
+			}
+			.dataText{
+				margin-left: 68px;
+				margin-top: -68px;
+				span{
+					color: $startUpP;
+					padding: 0px;
+					margin: 0px;
+					letter-spacing: 0.2px;
+					position: absolute;
+					margin-top: -37px;
+					margin-left: 14px;
+					font-size: 21.2px;
+				}
+				h1{
+					color: $startUpP;
+					line-height: 1.6;
+					letter-spacing: 0.2px;
+					margin-top: 30px;
+					margin-left: 14px;
+					font-size: 15px;
+				}
+			}
+		}
+		.data1{
+			padding-left: 35px;
+		}
+		.data2{
+			padding-left: 55px;
+		}
+	}
+	.scndFeatures{
+		margin-top: -15px;
+		.data{
+			margin-top: 40px;
+			.dataIcon{
+				height: 68px;
+				width: 68px;
+				margin-left: -15px;
+				background-color: $row;
+				text-align: center;
+				transition: 200ms linear;
+				a{
+					text-decoration: none;
+					color: $icon;
+					font-size: 34px;
+					margin-top: calc(100%/2 - 17px);
+				}
+				&:hover{
+					background-color: $rowHover;
+					a{
+						color: white;
+					}
+				}
+			}
+			.dataText{
+				margin-left: 68px;
+				margin-top: -68px;
+				span{
+					color: $startUpP;
+					padding: 0px;
+					margin: 0px;
+					letter-spacing: 0.2px;
+					position: absolute;
+					margin-top: -37px;
+					margin-left: 14px;
+					font-size: 21.2px;		
+				}
+				h1{
+					color: $startUpP;
+					line-height: 1.2;
+					letter-spacing: 0.9px;
+					margin-top: 30px;
+					margin-left: 14px;
+					font-size: 15px;
+				}
+			}
+		}
+		.data1{
+			padding-left: 35px;
+		}
+		.data2{
+			padding-left: 55px;
+		}
+	}
+	input{
+		height: 38px;
+		margin-top: 44px;
+		margin-left: 30px;
+		width: 163px;
+		border-radius: 25px;
+		background-color: $hover;
+		border: 0px;
+		color: white;
+		transition: 200ms linear;
+		&:hover{
+			box-shadow: 0px 0px 5px gray;
+		}
+	}
+	.figures{
+		.little3angle{
+			position: absolute;
+			margin-top: 20px;
+			margin-left: -77px;
+			height: 0px;
+			width: 0px;
+			border-bottom: 79px solid $hover;
+			border-left: 58px solid transparent;
+			border-right: 49px solid transparent;
+		}
+		.big3angle{
+			margin-top: -10px;
+			margin-right: -12px;
+			height: 0px;
+			width: 0px;
+			border-bottom: 109px solid $bigtriangle;
+			border-left: 67px solid transparent;
+			border-right: 69px solid transparent;
+		}
+	}
+	
+}

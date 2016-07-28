@@ -1,0 +1,54 @@
+@import "variables.scss";
+#footer{
+	.container{
+		.first{
+			height: 319px;
+			img{
+				margin-top: 59px;
+			}
+		}
+		.second{
+			height: 319px;
+			ul{
+				margin-top: 59px;
+				margin-left: -20px;		
+				list-style-type: none;
+				li{
+					padding: 8px 0px;
+					a{
+						font-size: 13px;
+						color: #A1AEB3;
+						text-decoration: none;
+					}
+				}
+				.activeClass{
+					color:black;
+					font-size: 20px;
+				}	
+			}
+		}
+		.third{
+			ul:first-child{
+				margin-top: 59px;
+				li{
+					list-style-type: none;
+					a{
+						font-size: 13px;
+						color: #A1AEB3;
+						text-decoration: none;
+					}
+				}
+			}
+			ul:last-child{
+				li{
+					display: inline-block;
+					a{
+						font-size: 13px;
+						color: #A1AEB3;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+}

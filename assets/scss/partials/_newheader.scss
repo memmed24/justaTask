@@ -1,0 +1,117 @@
+@import "variables.scss";
+#header{
+	
+	height: 126px;
+	width: 100%;
+	background-color: $topBar;
+	.topBar{
+		height: 50px;
+		.topBarLeft{
+			height: 50px;	
+			img{
+				margin-top: 19px;
+				margin-left: 4px;
+			}
+		}
+		.topBarRight{
+			height: 50px;
+			ul{
+				height: 50px;
+				margin-left: 72px;
+				li{
+					height: 48px;
+					padding-top: 12px;	
+					display: inline-block;
+					#phoneIcon{
+						margin-top: 2px;
+						margin-left: 8px;
+					}
+					#phoneNumber{
+						margin-top: 2px;
+						margin-left: 2px;
+					}
+					#emailicon{
+						margin-top: 2px;
+						padding-left: 10px;
+					}
+				}
+				.line{
+						border-right: 1.5px solid $topBarRight;
+						padding-right: 29px;
+				}
+				.email{
+					position: absolute;
+					margin-top: 2px;
+					#emailIcon{
+						margin-left: 28px;
+					}
+					#email{
+						position: absolute;
+						margin-top: -12px;
+						margin-left: 55px;
+					}
+				}
+			}
+		}
+	}
+	.menu{
+			height: 76px;
+			background-color: white;
+			.menuLeft{
+				img{
+					margin-top: 19px;
+				}
+			}
+			.menuRight{
+				ul{	
+					width: 100%;
+					margin-left: 150px;
+					li{
+						height: 33px;
+						display: inline-block;
+						margin-top: 21px;
+						padding-top: 5.5px;
+						padding-top: 5.5px;
+						border-radius: 25px;
+						transition:150ms linear;
+						padding-left: 15px;
+						padding-right: 15px;
+						a{
+							text-decoration: none;
+							color: $menuFont;
+							letter-spacing: 2px;
+							img{
+								margin-top: -3px;
+								margin-left: 3px;
+							}
+						}
+
+						&:hover{
+							background-color: $hover;
+							a{
+								color: white;
+							}
+						}
+					}
+					.lists{
+							padding-left: 19px;
+							padding-right: 19px;
+						}
+					.click{
+						color: #23282f;
+					}
+				}
+			}
+		}
+	}
+	.padding{
+		padding-right: 80px;
+	}
+
+@media(max-width: 360px){
+	body{
+		display: none;
+		background-color: black;
+	}
+}
+

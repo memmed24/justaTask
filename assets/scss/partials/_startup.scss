@@ -1,0 +1,156 @@
+@import "variables.scss";
+#startup{
+	height: 656px;
+	.startup{
+		.startUpLeft{
+			height: 656px;
+			.startUpLeftTop{
+				height: 335px;
+				border: 1px solid white;
+				p{
+					font-size: 29px;
+					color: $startUpP;
+					padding: 0px;
+					margin: 0px;
+					margin-top: 90px;
+					margin-left: 5px;
+				}
+				h1{
+					font-size: 15px;
+					margin-top: -2px;
+					margin-left: 5px;
+					letter-spacing: 1.5px;
+				}
+				h2{
+					font-size: 14px;
+					color: $startUpH2;
+					padding: 35px 0px;
+					margin-top: -15px;
+					margin-left: 5px;
+					line-height: 1.8;
+					letter-spacing: 0.4px;
+				}
+			}
+			.startUpLeftBottom{
+				height: 301px;
+				width: 585px;
+				margin-top: 20px;
+				margin-left: 5px;
+				background-color: $bannerBG;
+				img{
+					margin-top: 122px;
+					margin-left: 234px;
+				}
+			}
+		}
+		.startUpRight{
+			height: 656px;
+			.Rows{
+				margin-top: 100px;
+				.startUpRows{
+					height: 107px;
+					width: 457px;
+					.graphic{
+						height: 67px;
+						width: 67px;
+						background-color: $row;
+						text-align: center;
+						margin-left: 18px;
+						transition:200ms all linear;
+						a{
+							margin-top: 18px;
+							text-decoration: none;
+							font-size: 33px;
+							color: $icon;
+						}
+						&:hover{
+							background-color: $rowHover;
+							a{
+								color: $iconHover;
+							}
+						}
+					}
+					.clipboard{
+						height: 67px;
+						width: 67px;
+						background-color: $row;
+						text-align: center;
+						margin-left: 18px;
+						margin-top: 35px; 	
+						transition: 200ms all linear;
+						a{
+							margin-top: 18px;
+							text-decoration: none;
+							font-size: 33px;
+							color: $icon ;
+						}
+						&:hover{
+							background-color: $rowHover;
+							a{
+								color: $iconHover;
+							}
+						}
+					}
+					.tie{
+						height: 67px;
+						width: 67px;
+						background-color: $row;
+						text-align: center;
+						margin-left: 18px;
+						margin-top: 24px;
+						transition: 200ms all linear;
+						a{
+							margin-top: 18px;
+							text-decoration: none;
+							font-size: 33px;
+							color: $icon;
+						}
+						&:hover{
+							background-color: $rowHover;
+							a{
+								color: $iconHover;
+							}
+						}
+					}
+					.startUpRowsText{
+						width: 390px;
+						height: 66px;
+						margin-left: 84px;
+						margin-top: -73px;
+						p{
+							padding-left: 30px;
+							padding-right: 9px;
+							font-size: 19px;
+							letter-spacing: 0.2px;
+							color: $startUpP;
+							margin-bottom: -17px;
+						}
+						h1{
+							padding-left: 30px;
+							font-size: 14px;
+							letter-spacing: 0.5px;
+							line-height: 1.7;
+							color: $startUpRowH1;
+						}
+					}
+				}
+				// button
+				.btn1{
+					margin-top: 32px;
+					height: 38px;
+					width: 171px;
+					margin-left: 115px;
+					background-color: $hover;
+					border: 0px;
+					border-radius: 25px;
+					color: white;
+					transition: 200ms all linear;
+					letter-spacing: 1px;
+					&:hover{
+						box-shadow: 0px 0px 5px gray;
+					}
+				}
+			}
+		}
+	}
+}

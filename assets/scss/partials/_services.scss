@@ -1,0 +1,43 @@
+@import "variables.scss";
+#services{
+	.container{
+		border:0px;
+		padding-bottom: 99px;
+		border-bottom: 1px solid $topBar;
+		.col-md-6{
+			p{
+				padding-left: 15px;
+				padding-top: 108px;
+				letter-spacing: 2.5px;
+				text-align: center;
+				font-size: 25px;
+				font-weight: 600;
+				span{
+					color: $rowHover;
+				}
+			}
+			h4{
+				font-size: 14.5px;
+				padding-bottom: 33px;
+			}
+			.btn1{
+				background-color: $hover;
+				height: 38px;
+				width: 141px;
+				border: 0px;
+				color: white;
+				border-radius: 25px;
+				margin-right: 19px;
+			}
+			.btn2{
+				border-radius: 25px;
+				color: white;
+				border: 0px;
+				height: 38px;
+				width: 141px;
+				background-color: $rowHover;
+			}
+
+		}
+	}
+}

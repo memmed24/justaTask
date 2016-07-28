@@ -1,0 +1,113 @@
+#price{
+	padding-bottom: 65px;
+	.priceTop{
+		padding-top: 90px;
+		span{
+			color:$startUpP;
+		    font-size: 29.5px;
+            letter-spacing: 0.2px;
+            font-weight: 900;
+		}
+		p{
+			letter-spacing: 2.3px;
+		}
+	}
+	.priceBottom{
+		.prices{
+			border: 1px solid $row;
+			margin-top: 27px;
+			margin-left: -15px;
+			height: 464px;
+			transition: 200ms linear;
+			.top{
+				height:67px;
+				border: 0px;
+				border-bottom: 1px solid $row;
+				p{
+					padding-top: 30px;
+					text-align: center;
+					font-size: 19px;
+					font-weight: 600;
+				}
+				.businessP{
+					padding-top: 65px;
+				}
+				h2{
+				    margin: 0px;
+    				padding: 0px;
+				    transform: rotate(-45deg);
+				    margin-top: -140px;
+				    margin-left: -30px;
+				    font-size: 11px;
+				    color: white;
+				}
+				.line{
+					margin-top: -1px;
+					margin-left: 70px;
+					height: 1px;
+					width:35px;
+					background-color:$rowHover;
+				}
+			}
+			.center{
+				height: 58px;
+				border: 0px;
+				border-bottom: 1px solid $row;
+				p{
+					color: #88888A;
+			        font-size: 18.6px;
+    				text-align: center;
+    				padding-top: 17px;
+    				letter-spacing: 1px;
+					span{
+						color:$rowHover;
+					}
+				}
+			}
+			.bottom{
+				.bottomTop{
+					padding-top: 40px;
+					p{
+						font-size: 15px;
+						text-align: center;
+						letter-spacing: 0.5px;
+						color: #58595D;
+					}
+
+
+					h1{
+						font-size: 15px;
+						text-align: center;
+						letter-spacing: 0.5px;
+						color: #58595D;
+					}
+					h2{
+						font-size: 15px;
+						text-align: center;
+						color: #58595D;
+						letter-spacing: 0.5px;
+					}
+				}
+				.bottomDown{
+					input{
+						margin-top: 80px;
+						margin-left: calc(100%/2 - 70.5px);
+						height: 38px;
+						width: 141px;
+						background-color: $hover;
+						border: 0px;
+						border-radius: 25px;
+						color: white;
+						transition: 200ms linear;
+						&:hover{
+							box-shadow: 0px 0px 10px gray;
+						}
+					}
+				}
+			}
+			&:hover{
+				box-shadow: 0px 0px 100px gray;
+			}
+		}
+	}
+}

@@ -1,0 +1,57 @@
+@import "variables.scss";
+#banner{
+	height: 750px;
+	background-color: $bannerBG;
+	position: relative;
+	.banner1{
+		height: 750px;
+		.banner2{
+			height: 750px;
+			#imgText{
+				margin-top: 217px;
+				img{
+					margin-left: 504px;
+				}
+			}
+			#bootsText{
+				margin-top: 69px;
+				img{
+					margin-left: 178px;
+				}
+			}
+			#bannerSlider{
+				height: 103px;
+				#bannerSliderTop{
+					margin-left: 562px;
+					margin-top: 195px;
+					#slider{
+						position: absolute;
+					}
+					.sliderText{
+						position: absolute;
+						left: 593px;
+						margin-top: 21px;
+					}
+				}
+				#bannerSliderBottom{
+					position: absolute;
+					height: 16px;
+					margin-top: 88px;
+					margin-left: 538px;
+					.sliderCircle{
+						height: 16px;
+						width: 16px;
+						border-radius: 50%;
+						border:3px solid $slider;
+						margin-right: 6px;
+						display: inline-block;
+						transition:250ms linear;
+						&:hover{
+							border:3px solid white;
+						}
+					}
+				}
+			}
+		}
+	}
+}

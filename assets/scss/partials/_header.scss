@@ -1,0 +1,93 @@
+@import "variables.scss";
+#header{
+	height: 126px;
+	width: 100%;
+	background-color: $topBar;
+	// topbar Design below here:
+	.topBar{
+		height: 50px;
+		background-color: $topBar; 	
+		.topBar1{
+			height: 50px;
+			.topLeftBar{
+				height: 50px;
+				.logoBar{
+					margin-top: 19px;
+				}
+			}
+			.topRightBar{
+				height: 50px;
+				ul{
+					width: 1000px;
+					li{
+						height: 50px;
+						display: inline-block;
+						img{
+							margin-top: 16px;
+						}
+						#phoneIcon{
+							padding-right: 10px;
+						}
+						#phoneNumber{
+							padding-right: 29px;
+						}
+						#emailIcon{
+							padding-left: 22px;
+						}
+						#email{
+							padding-left: 8px;
+						}
+					}
+					.line{
+						border-right: 1px solid $line;
+					}
+				}
+			}
+		}
+	}
+	//menu Design below here:
+	.menu{
+		.menuLeft{
+			img{
+				margin-top: 19px;
+			}
+		}
+		.menuRight{
+			ul{
+				li{
+					height: 33px;
+					display: inline-block;
+					margin-top: 21px;
+					padding-top: 5.5px;
+					padding-top: 5.5px;
+					padding-left: 26.5px;
+					padding-right: 26.5px;
+					border-radius: 25px;
+					transition:150ms linear;
+					a{
+						text-decoration: none;
+						color: $menuFont;
+						img{
+							margin-top: -3px;
+							margin-left: 3px;
+						}
+					}
+
+					&:hover{
+						background-color: $hover;
+						a{
+							color: white;
+						}
+					}
+				}
+				.click{
+					color: #23282f;
+				}
+			}
+		}
+	}
+}
+.padding{
+	margin: 0px;
+	padding: 0px;
+}
